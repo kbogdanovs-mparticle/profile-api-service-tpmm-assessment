@@ -24,5 +24,8 @@ See `.env.example` for required environment variables.
 npm run dev
 ```
 
+**4 - Test**
 
+If your credentials are correct you should be able to request the profile of your user by making a GET request to:
 
+`http://localhost:4000/users/REPLACE-WITH-MPID/full-profile`
